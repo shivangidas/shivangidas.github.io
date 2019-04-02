@@ -63,6 +63,8 @@ main {
   max-width: 42rem;
   padding: 0.625rem 1.3125rem;
   font-size: calc(12px + 1vmin);
+  line-height: 1.5;
+  text-align: justify;
 }
 a {
   color: var(--textLink);
@@ -74,7 +76,7 @@ ul li {
   list-style-position: inside;
 }
 .card {
-  box-shadow: 1px 1px 2px 1px #171717;
+  box-shadow: 1px 1px 2px 1px #cbc9c9;
   margin: 1rem;
   padding: 14px;
 }
