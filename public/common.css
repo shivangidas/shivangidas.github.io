@@ -80,3 +80,8 @@ ul li {
   margin: 1rem;
   padding: 14px;
 }
+@media screen and (min-width: 700px) {
+  main {
+    text-align: left;
+  }
+}
