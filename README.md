@@ -1,3 +1,3 @@
-# This will lead you to my work.
+# This will lead you to my work and learnings.
 
-It's a work in progress
+Forever a work in progress
