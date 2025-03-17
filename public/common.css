@@ -84,18 +84,21 @@ ul li {
   max-width: calc(50% - 2rem); /* 50% width minus margins */
 }
 header {
+  flex: 1 1 800px;
+  display: grid;
   margin: 1rem;
   padding: 14px;
-  flex: 1 1 800px;
-  max-width: calc(100% -2rem);
+  grid-template-columns: 110px 1fr;
+  grid-template-rows: 1fr 1fr;
 }
-
-header h1 {
-  margin-bottom: 0.2em;
+header img {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  position: relative;
 }
-
+header h1,
 header p {
-  margin-top: 0.2em;
+  margin: 0;
 }
 .avatar {
   vertical-align: middle;
