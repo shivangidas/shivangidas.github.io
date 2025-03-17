@@ -83,11 +83,30 @@ ul li {
   flex: 1 1 400px; /* Grow, shrink, and basis */
   max-width: calc(50% - 2rem); /* 50% width minus margins */
 }
+header {
+  margin: 1rem;
+  padding: 14px;
+  flex: 1 1 800px;
+  max-width: calc(100% -2rem);
+}
+
+header h1 {
+  margin-bottom: 0.2em;
+}
+
+header p {
+  margin-top: 0.2em;
+}
+.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
 
 @media screen and (max-width: 800px) {
   main {
     max-width: 100%;
-
   }
   .card {
     max-width: 100%;
